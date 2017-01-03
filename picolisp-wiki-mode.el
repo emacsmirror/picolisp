@@ -1,6 +1,6 @@
 ;;; picolisp-wiki-mode.el --- Emacs Major mode for PicoLisp-Wiki formatted text files
 
-;; Copyright (C) 2012-13 Thorsten Jolitz <tjolitz@gmail.com>
+;; Copyright (C) 2012-2013 Thorsten Jolitz <tjolitz@gmail.com>
 
 ;; Author: Thorsten Jolitz <tjolitz@gmail.com>
 ;; Maintainer: Thorsten Jolitz <tjolitz@gmail.com>
@@ -59,7 +59,7 @@
 ;; that can be customized.  The `M-x customize-mode` command
 ;; provides an interface to all of the possible customizations.
 
-;; Usage:
+;;; Usage:
 
 ;; Keybindings for inserting are grouped by prefixes based on their
 ;; function. For example, commands inserting links and lists begin

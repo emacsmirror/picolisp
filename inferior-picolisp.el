@@ -1,21 +1,41 @@
-;;;;;; inferior-picolisp: Picolisp repl in a buffer.
-;;;;;; Version: 1.2
+;;; inferior-picolisp.el --- Picolisp repl in a buffer.
 
 ;;; Copyright (c) 2009, 2012, 2013, Guillermo R. Palavecino, Thorsten Jolitz
 
-;; This file is NOT part of GNU emacs.
+;; Version: 1.2
 
-;;;; Credits:
+;; This file is NOT part of GNU Emacs.
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation; either version 2, or (at your option)
+;; any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program; if not, write to the Free Software
+;; Foundation, Inc., 51 Franklin Street, Fifth Floor,
+;; Boston, MA 02110-1301, USA.
+
+;;; Commentary:
+
+;; Picolisp repl in a buffer.
+
+;;; Credits:
+
 ;; It's and adaptation of GNU emacs' cmuscheme.el
-;;
-;;;; Contact:
+
+;;; Contact:
+
 ;; For comments, bug reports, questions, etc, you can contact me via IRC
 ;; to the user named grpala (or armadillo) on irc.freenode.net in the
 ;; #picolisp channel or via email to the author's nickname at gmail.com
-;;
-;;;; License:
-;; This work is released under the GPL 2 or (at your option) any later
-;; version.
+
+;;; Code:
 
 (require 'picolisp)
 (require 'comint)
@@ -378,3 +398,4 @@ This is a good place to put keybindings."
 
 (provide 'inferior-picolisp)
 
+;;; inferior-picolisp.el ends here

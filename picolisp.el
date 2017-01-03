@@ -1,17 +1,39 @@
-;;;;;; picolisp-mode: Major mode to edit picoLisp.
-;;;;;; Version: 1.3
+;;; picolisp.el --- Major mode to edit picoLisp.
 
 ;;; Copyright (c) 2009, Guillermo R. Palavecino
 ;;; Copyright (c) 2011, 2012 Thorsten Jolitz
 
-;; This file is NOT part of GNU emacs.
+;; Version: 1.3
 
-;;;; Credits:
+;; This file is NOT part of GNU Emacs.
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation; either version 2, or (at your option)
+;; any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program; if not, write to the Free Software
+;; Foundation, Inc., 51 Franklin Street, Fifth Floor,
+;; Boston, MA 02110-1301, USA.
+
+;;; Commentary:
+
+;; Major mode to edit picoLisp.
+
+;;; Credits:
+
 ;; It's based on GNU emacs' lisp-mode and scheme-mode.
 ;; Some bits were taken from paredit.el
 ;; Two functions were copied from Xah Lee (http://xahlee.org/)
-;;
-;;;; Contact:
+
+;;; Contact:
+
 ;; For comments, bug reports, questions, etc, you can contact the
 ;; first author via IRC to the user named grpala (or armadillo) on
 ;; irc.freenode.net in the #picolisp channel or via email to the
@@ -19,11 +41,8 @@
 ;; 
 ;; Or contact the second author and curent maintainer via email: 
 ;; t <lastname in lowercase letters> AT gmail DOT com
-;; 
-;;;; License:
-;; This work is released under the GPL 2 or (at your option) any later
-;; version.
 
+;;; Code:
 
 (require 'lisp-mode)
 
@@ -750,3 +769,5 @@ The main differences are:
   (font-lock-add-keywords 'inferior-picolisp-mode tsm-lock) )
 
 (provide 'picolisp)
+
+;;; picolisp.el ends here

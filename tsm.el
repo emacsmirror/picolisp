@@ -1,18 +1,37 @@
-;;;;;; tsm-mode: Minor mode to display transient symbols in picolisp-mode.
-;;;;;; Version: 1.0
+;;; tsm.el --- Minor mode to display transient symbols in picolisp-mode.
 
 ;;; Copyright (c) 2009, Guillermo R. Palavecino
 
-;; This file is NOT part of GNU emacs.
+;; Version: 1.0
 
-;;;; Contact:
+;; This file is NOT part of GNU Emacs.
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation; either version 2, or (at your option)
+;; any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program; if not, write to the Free Software
+;; Foundation, Inc., 51 Franklin Street, Fifth Floor,
+;; Boston, MA 02110-1301, USA.
+
+;;; Commentary:
+
+;; Minor mode to display transient symbols in picolisp-mode.
+
+;;; Contact:
+
 ;; For comments, bug reports, questions, etc, you can contact me via IRC
 ;; to the user named grpala (or armadillo) on irc.freenode.net in the
 ;; #picolisp channel or via email to the author's nickname at gmail.com
-;;
-;;;; License:
-;; This work is released under the GPL 2 or (at your option) any later
-;; version.
+
+;;; Code:
 
 (defvar tsm-face 'tsm-face)
 
@@ -128,3 +147,5 @@
 ;;; Announce
 
 (provide 'tsm)
+
+;;; tsm.el ends here
